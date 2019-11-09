@@ -7,6 +7,8 @@
 <title>JSP 01 - Hello World from JSP</title>
 </head>
 <body>
-	
+	<h1>Hello world!</h1>
+	<!-- Create a new Date object -->
+	<h3>It's <%= new java.util.Date() %></h3> 
 </body>
 </html>
